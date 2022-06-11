@@ -1,0 +1,156 @@
+/*style.css*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+  
+
+.flex-container1 {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    gap:8px;
+    align-items: center;
+    justify-content: right;
+    padding: 1% 12% 1% 12%
+  }
+  .flex-container1 div {
+    width: 160px;
+    height: 50px;
+  }
+
+  .oneA {
+    flex: 1 1 auto;
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: left;
+  }
+  .flex-container2 {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    gap:28px;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 12% 5% 12%
+  }
+  .flex-container2 div {
+    flex: 1 1 auto;
+    width: 300px;
+    height: 300px; 
+    }
+
+  img {
+    height:auto;
+    max-width: 100%;
+    height: 100%;
+    float: right;
+  }
+  
+  button {
+    background-color:#3882f6;
+	  border-radius:8px;
+    border: 0px;
+	  color:#ffffff;
+	  font-size:20px;
+	  font-weight:bold;
+    margin-top: 20px;
+	  padding:10px 20px;
+	  text-decoration:none;	  
+  }
+
+  h1 {
+    font-size:48px;
+  }
+
+  h2 {
+    display: flex;
+    font-size:36px;
+    color:#1f2937;
+    justify-content: center;
+  }
+
+  .second-section {
+    margin-top: 60px;
+  }
+
+  .second-section-columns {
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .second-section-columns div {
+    flex: 1 1 auto;
+    max-width: 200px;
+    max-height: 400px;
+
+    
+
+  }
+  .second-section-columns img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 196px;
+    height: auto; 
+  }
+
+  .testimonial {
+    margin-top: 100px;
+    background-color: #e5e7eb;
+    display: block;
+    font-style: italic;
+    font-weight: lighter;
+    font-size:30px;
+    justify-content: center;
+    padding: 2% 12% 2% 12% ;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: right;
+    font-size:22px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .CTA {
+    display: flex;
+    margin: 8% 12% 8% 12%;
+    padding: 30px 40px 30px 40px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #ffffff;
+    gap: 200px;
+  }
+
+  
+  .CTAtext {
+    font-size:26px;
+    font-weight: bold;
+  }
+
+  .CTAbutton {
+    display: flex;
+    margin: 0%;
+    border: 2px solid white;
+    
+  }
+
+  .last-paragraphs {
+    margin:0;
+    padding:0;
+  }
+
+footer {
+  background-color: #1f2937;
+  padding: 6px 0px 6px 0px;
+}
+
+footer p {
+  color: #ababab;
+  text-align: center;
+}
